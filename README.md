@@ -223,9 +223,17 @@ A ranked list of the most-used hashtags and their frequencies.
 
 | Hashtag     | Count |
 |-------------|-------|
-| #tech       | 120   |
-| #mood       | 98    |
-| #design     | 85    |
+| #tech       | 26    |
+| #fail       | 21    |
+| #mood       | 20    |
+| #AI         | 20    |
+| #UX         | 20    |
+| #bug        | 19    |
+| #love       | 18    |
+| #design     | 18    |
+| #social     | 17    |
+| #cleanUI    | 14    |
+
 
 ---
 
@@ -245,11 +253,11 @@ A summary of user engagement behavior categorized by age group.
 
 **Example Output:**
 
-| Age Group | Avg Likes | Avg Retweets |
-|-----------|-----------|--------------|
-| Adult     | 67.3      | 25.2         |
-| Teen      | 22.0      | 5.6          |
-| Senior    | 9.2       | 1.3          |
+| AgeGroup  | Avg_Likes  | Avg_Retweets |
+|-----------|------------|--------------|
+| Adult     | 	73.4      | 25.0         |
+| Teen      | 	73.5      | 24.8         |
+| Senior    | 	59.5      | 25.0         |
 
 ---
 
@@ -268,11 +276,11 @@ Insights into whether happier or angrier posts get more attention.
 
 **Example Output:**
 
-| Sentiment | Avg Likes | Avg Retweets |
+| Sentiment | Avg_Likes | Avg_Retweets |
 |-----------|-----------|--------------|
-| Positive  | 85.6      | 32.3         |
-| Neutral   | 27.1      | 10.4         |
-| Negative  | 13.6      | 4.7          |
+| Positive  | 76.0      | 25.3         |
+| Neutral   | 73.7      | 22.5         |
+| Negative  | 63.9      | 26.9         |
 
 ---
 
@@ -292,10 +300,13 @@ A leaderboard of verified users based on audience engagement.
 
 **Example Output:**
 
-| Username       | Total Reach |
+| Username       | Total_Reach |
 |----------------|-------------|
-| @techie42      | 1650        |
-| @designer_dan  | 1320        |
+| @daily_vibes   | 1115        |
+| @social_queen  | 946         |
+| @critic99      | 925         |
+| @calm_mind     | 732         |
+| @designer_dan  | 620         |
 
 ---
 
