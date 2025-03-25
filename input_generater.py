@@ -16,7 +16,7 @@ age_groups = ["Teen", "Adult", "Senior"]
 countries = ["US", "UK", "Canada", "India", "Germany", "Brazil"]
 verified_status = [True, False]
 
-for user_id in range(1, 51):
+for user_id in range(1, 11):
     user = {
         "UserID": user_id,
         "Username": usernames[user_id - 1],
